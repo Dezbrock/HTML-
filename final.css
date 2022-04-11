@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+  font-family: font-family: 'DM Mono', monospace;
+  background-color: inherit;
+}
+header {
+  font-size: 30px;
+}
+footer {
+  font-size:13px;
+}
+html {
+  background:url(paw-prints.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: transparent;
+}
+
+.topnav a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: red;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+fieldset {
+  width: 50%;
+}
+
+label {
+ width: 75px;
+ float: left;
+ text-align: left;
+ font-weight: bold;
+}
+
+input {
+ padding: 3px;
+}
